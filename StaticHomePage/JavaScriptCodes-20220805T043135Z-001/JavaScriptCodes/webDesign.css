@@ -1,0 +1,266 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box ;
+
+}
+
+nav{
+
+background: white ;
+height: 70px;
+width: 100%;
+}
+
+nav ul li{
+
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 2px;
+}
+
+.ul1{
+   font-size: 18px;
+    float: left;
+    margin-left: 40px;
+   
+}
+
+.ul2{
+  font-size: 18px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+a{
+  font-family: arial;
+  color: #797171;
+}
+
+a:hover{
+    color: rgb(99, 202, 243);
+    
+  }
+
+  .textStyle{
+    
+    padding: 60px;
+     width: 100%;
+     height: 500px;
+     font-size: 30px;
+     display: flex;
+     color: white;
+     flex-direction: column;
+     align-items: center;
+   
+   }
+
+   
+
+/* By default, paragraph text will have following properties */
+
+p{
+  font-size: 18px;
+  margin-top: 10px;
+    text-align: center;
+}
+
+/* By default, button will have following properties */
+button{
+
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+    background-color:#229BD7;
+    width: 150px;
+    text-align: center;
+    border: none;
+    height: 50px;
+   
+  
+  }
+
+
+/* header styling */
+
+h1{
+  font-size: 40px;
+  
+   margin-top: 45px;
+   text-align: center;
+
+  font-weight: bold;
+      
+}
+
+h2{
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #a8a5a5;
+
+
+}
+
+h5{
+  margin-top: 10px;
+  text-align: center;
+  color: #5a5555;
+  font-size: 16px;
+
+}
+
+
+/* Search bar properties */
+
+  .searchBar{
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    
+  }
+
+  /* All Images Css Stylings*/
+
+  .iconImage{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+  }
+
+  .backgroundImage1 {
+    width: 100%;
+    min-height: 500px;
+    background-position: center;
+    position: relative;
+  
+    background: url('images/top-section_4360x1500.jpg');
+    background-size: cover;
+
+  
+  }
+
+  .benefitImage{
+
+    margin-top: 8px;
+    height:65px ;
+     width:80px;
+    
+    
+    }
+
+    
+.clipMineImage{
+  justify-content: space-evenly;
+  height: 90px;
+  width:  150px;
+   position: relative;
+   background-size: cover;
+  
+
+
+}
+
+.collectionImage1{
+
+  height: 150px;
+  width:  400px;
+  padding: 50px 0;
+  
+  line-height: 75px;
+  
+  
+   background-position: center;
+  
+   background: url('images/collection-startup_460x184.png');
+   background-size: cover;
+  
+  
+  
+  }
+  
+  .collectionImage2{
+  
+    height: 150px;
+    width:  400px;
+    padding: 50px 0;
+    line-height: 75px;
+     background-position: center;
+     position: relative;
+    
+     background: url('images/collection-ml_461x184.png');
+     background-size: cover;
+  
+    }
+
+    /* All Div Section Styling*/
+
+    .section1{
+ 
+      justify-content: center;
+      color: #5a5555;
+     
+      
+    }
+
+    .section2{
+
+      justify-content: left;
+      display: flex;
+      padding: 25px;
+      width: 50%;
+      margin: -25px auto 0;
+      
+      }
+
+    .section3{
+
+      justify-content: space-evenly;
+      display: flex;
+      padding: 50px;
+      width: 100%;
+      
+        }
+      
+      .section4{
+      
+
+      justify-content: space-evenly;
+      display: flex;
+      width: 100%;
+      padding: 30px 0;
+      
+      
+      }
+      
+      
+      .section5{
+      
+        justify-content: space-evenly;
+      
+        display: flex;
+        width: 100%;
+      
+        
+        
+        }
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
