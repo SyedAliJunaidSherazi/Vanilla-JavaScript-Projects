@@ -34,6 +34,7 @@ In this repository, you'll find a range of projects developed to demonstrate pro
 To run any of the projects in this repository, follow these steps:
 
 1. Clone the repository to your local machine using Git:
+   
    ```
   https://github.com/SyedAliJunaidSherazi/Vanilla-JavaScript-Projects.git
    ```
