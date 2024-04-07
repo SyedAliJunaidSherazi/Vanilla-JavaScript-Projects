@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Admin -MAWS Travelling System</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    0
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    />
+
+    <link rel="stylesheet" href="ridePrediction.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+   
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1 class="text-light">
+            <a href="index.html"><span>MAWS TRAVELING SYSTEM</span></a>
+          </h1>
+         
+      
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Our Services Section ======= -->
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Ride Predictor</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Ride Prediction</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- End Our Services Section -->
+      <!-- Banner -->
+      <!-- <a href="https://webpixels.io/components?ref=bbbootstrap" class="btn w-full btn-primary text-truncate rounded-0 py-2 border-0 position-relative" style="z-index: 1000;"> <strong>Crafted with Webpixels CSS:</strong> The design system for Bootstrap 5. Browse all components &rarr;
+</a> -->
+      <!-- Dashboard -->
+      <div class="container">
+        <div class="card p-4 mt-5">
+          <div class="row g-3">
+            <div class="col-12 mb-4">
+              <h4>MAWS Travel Prediction</h4>
+              <span class="text-muted"
+                >Please make the payment to start enjoying all the features of
+                our premium plan as soon as possible</span
+              >
+            </div>
+            <div class="col-12">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="Roundtrip"
+                  value="option1"
+                />
+                <label class="form-check-label" for="Roundtrip"
+                  >Roundtrip</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="Oneway"
+                  value="option2"
+                />
+                <label class="form-check-label" for="Oneway">inter-City</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="MultiCity"
+                  value="option3"
+                />
+                <label class="form-check-label" for="MultiCity"
+                  >Multi-City</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="MultiCity"
+                  value="option3"
+                />
+                <label class="form-check-label" for="MultiCity">Abroad</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="FLYING FROM"
+                />
+                <label>Travelling From</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="FLYING TO"
+                />
+                <label>Travelling To</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="DEPARTING"
+                />
+                <label>Departing</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="RETURNING"
+                />
+                <label>Returning</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="FLYING FROM"
+                />
+                <label>Budget</label>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="FLYING TO"
+                />
+                <label>No of Seats</label>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="form-floating">
+                <select class="form-select">
+                  <option selected="" hidden="">Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <label>ADULTS(18+)</label>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="form-floating">
+                <select class="form-select">
+                  <option selected="" hidden="">Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <label>CHILDREN(0-17)</label>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="form-floating">
+                <select class="form-select">
+                  <option selected="" hidden="">Open this select menu</option>
+                  <option value="1">Economy</option>
+                  <option value="2">Premium</option>
+                  <option value="3">Business</option>
+                </select>
+                <label>TRAVEL CLASS</label>
+              </div>
+            </div>
+            <div class="col-12 mt-4">
+              <button class="btn btn-secondary text-uppercase" type="button">
+                Close
+              </button>
+              <button class="btn btn-primary text-uppercase" type="button">
+                Predict<i class="fa fa-plane ms-0"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer
+      id="footer"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
+    >
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Travel by Air</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Travel by Trains</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Travel by Busses</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Travel by Bussiness Cabs</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Travel by Local</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                Tarlai Road , Park Road Comsats University <br />
+                Islamabad, IBD 44000<br />
+                Pakistan <br /><br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> maws@yahoo.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>About MAWS Travelling System</h3>
+              <p>
+                A Online Travelling application that facilates online ticket
+                bookings for air, trains, buses and cabs travels.Reservation of
+                seats are is also available.
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>MAWS Travelling System</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
+          Designed by <a href="https://bootstrapmade.com/">MAWS Developers</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
