@@ -36,7 +36,7 @@ To run any of the projects in this repository, follow these steps:
 1. Clone the repository to your local machine using Git:
    
    ```
-  https://github.com/SyedAliJunaidSherazi/Vanilla-JavaScript-Projects.git
+    https://github.com/SyedAliJunaidSherazi/Vanilla-JavaScript-Projects.git
    ```
 
 2. Open the project directory in your preferred code editor.
